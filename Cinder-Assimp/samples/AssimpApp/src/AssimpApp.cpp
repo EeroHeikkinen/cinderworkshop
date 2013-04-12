@@ -26,7 +26,6 @@
 #include "cinder/params/Params.h"
 
 #include "AssimpLoader.h"
-#include "Particle.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -115,11 +114,13 @@ void AssimpApp::update()
     {
         std::string name = *nameIt;
         
-        ci::TriMesh mesh = mAssimpLoader.getAssimpNodeMesh( name, size_t n = 0 );
+        ci::TriMesh mesh = mAssimpLoader.getAssimpNodeMesh( name);
         
+        std::vector<uint32_t> indices = mesh.getIndices();
         
+        vector< uint32_t >::const_iterator indiceIt = indices.begin();
     }
-    
+    /*
     
     for( int i=0; i<100; i++ )
 	{
@@ -132,7 +133,7 @@ void AssimpApp::update()
                                        Vec2f( cos(mTmpDirAngle), sin(mTmpDirAngle) ), // direction
                                        mParticleVelocity, // velocity
                                        mParticleSize ) );
-	}
+	}*/
 }
 
 void AssimpApp::draw()

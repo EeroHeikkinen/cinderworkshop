@@ -246,7 +246,7 @@ class AssimpLoader
 		size_t mAnimationIndex;
 		double mAnimationTime;
     
-        list<Particle> mParticles;
+    std::list<Particle> mParticles;
 };
 
 } } // namespace mndl::assimp

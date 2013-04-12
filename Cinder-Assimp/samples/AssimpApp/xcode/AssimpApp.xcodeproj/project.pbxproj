@@ -51,6 +51,7 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* AssimpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssimpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CFF0F5171825A600EEB829 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				C7CFF0F5171825A600EEB829 /* Particle.h */,
 				1401A8F615D3C25500BDFDFB /* AssimpLoader.h */,
 				1401A8F715D3C25500BDFDFB /* AssimpMesh.h */,
 				1401A8F815D3C25500BDFDFB /* Node.h */,

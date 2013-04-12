@@ -8,12 +8,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../src/AssimpApp.cpp"
-         timestampString = "387456837.277652"
+         timestampString = "387458598.846736"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "111"
-         endingLineNumber = "111"
+         startingLineNumber = "141"
+         endingLineNumber = "141"
          landmarkName = "AssimpApp::draw()"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../src/AssimpApp.cpp"
+         timestampString = "387458598.846736"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "100"
+         endingLineNumber = "100"
+         landmarkName = "AssimpApp::update()"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

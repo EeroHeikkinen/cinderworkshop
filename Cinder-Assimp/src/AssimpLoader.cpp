@@ -24,7 +24,6 @@
 #include "cinder/ImageIo.h"
 #include "cinder/CinderMath.h"
 #include "cinder/Utilities.h"
-#include "Particle.h"
 
 #include "AssimpLoader.h"
 
