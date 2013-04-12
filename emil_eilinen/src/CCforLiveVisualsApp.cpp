@@ -33,6 +33,7 @@ class CCforLiveVisualsApp : public AppBasic {
 	int mTime;
 
 	int					mBPM;
+	int					mLastBPMResetTime;
 	int					mGeneralDir;
 
 	list<Particle>		mParticles;
@@ -52,6 +53,7 @@ void CCforLiveVisualsApp::prepareSettings( Settings *settings )
 void CCforLiveVisualsApp::setup()
 {
 	mBPM = 120;
+	mLastBPMResetTime = getElapsedSeconds()*1000;
 	Rand::randomize();
 	mBgColor = Color( 1, 0, 0 );
 	mGeneralDir = 1;
@@ -114,6 +116,27 @@ void CCforLiveVisualsApp::keyDown( KeyEvent event )
 	} else if( event.getChar() == 'i' ){
 	}
 
+
+	if( event.getCode() == KeyEvent::KEY_UP ) {
+		if (mBPM < 236) { mBPM += 5;	} 
+		else { mBPM = 60; }
+	}
+	if( event.getCode() == KeyEvent::KEY_DOWN ) {
+		if (mBPM > 64) { mBPM -= 5;	} 
+		else { mBPM = 240; }
+	}
+	if( event.getCode() == KeyEvent::KEY_LEFT ) {
+		if (mBPM > 60) { mBPM -= 1;	} 
+		else { mBPM = 240; }
+	}
+	if( event.getCode() == KeyEvent::KEY_RIGHT ) {
+		if (mBPM < 240) { mBPM += 1;	} 
+		else { mBPM = 60; }
+	}
+	if( event.getCode() == KeyEvent::KEY_SPACE ) {
+		mLastBPMResetTime = getElapsedSeconds()*1000;
+	}
+
 	if( event.getCode() == KeyEvent::KEY_ESCAPE ) {
 		quit();
 	}
@@ -121,11 +144,11 @@ void CCforLiveVisualsApp::keyDown( KeyEvent event )
 
 void CCforLiveVisualsApp::update()
 {
-	mTime = getElapsedSeconds()*1000;
+	mTime = getElapsedSeconds()*1000 - mLastBPMResetTime;
 
 	mBgColor = Color( mTime%1000/1000, mTime%1000/1000, mTime%1000/1000 );
 
-	if ( mTime%700 >= 650 ) {
+	if ( ( mTime%(1000*60/mBPM) ) <= 25 ) {
 		for( list<Particle>::iterator i = mParticles.begin(); i != mParticles.end(); ++i ){
 			(*i).mLoc = mMouseLoc;
 			mTmpDirAngle = Rand::randFloat( 360.0f );
@@ -140,10 +163,10 @@ void CCforLiveVisualsApp::update()
 			float mMouseDirX = (*i).mLoc.x-mMouseLoc.x;
 			float mMouseDirY = (*i).mLoc.y-mMouseLoc.y;
 			Vec2f mMouseDir = Vec2f( cos(mMouseDirX), sin(mMouseDirY) );
-			(*i).mDir += (mMouseDir-(*i).mDir);
+			// (*i).mDir += (mMouseDir-(*i).mDir);
 
 			// update location
-			(*i).mLoc += (*i).mVel * (*i).mDir;
+			(*i).mLoc += mGeneralDir*10 * (*i).mDir;
 
 			// decelerate moving particles (the more deceleration kicks in the faster they are)
 			/*
