@@ -1,0 +1,91 @@
+The system is: Darwin - 12.0.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/2.8.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -fvisibility-inlines-hidden
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/2.8.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec512489591/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec512489591.dir/build.make CMakeFiles/cmTryCompileExec512489591.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec512489591.dir/testCCompiler.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk   -o CMakeFiles/cmTryCompileExec512489591.dir/testCCompiler.c.o   -c /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec512489591
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec512489591.dir/link.txt --verbose=1
+/usr/bin/cc      -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec512489591.dir/testCCompiler.c.o  -o cmTryCompileExec512489591  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3402825379/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3402825379.dir/build.make CMakeFiles/cmTryCompileExec3402825379.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3402825379.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -arch i386 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk   -o CMakeFiles/cmTryCompileExec3402825379.dir/CMakeCCompilerABI.c.o   -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTryCompileExec3402825379
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3402825379.dir/link.txt --verbose=1
+/usr/bin/cc      -arch i386 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3402825379.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3402825379   
+Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+Target: x86_64-apple-darwin12.0.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch i386 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//blZu8M.out -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3402825379.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTryCompileExec3402825379 -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.eprintf.a /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//iwvucY.out -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec3402825379.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTryCompileExec3402825379 -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+ "/usr/bin/lipo" -create -output cmTryCompileExec3402825379 /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//blZu8M.out /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//iwvucY.out
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3599811832/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3599811832.dir/build.make CMakeFiles/cmTryCompileExec3599811832.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3599811832.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -fvisibility-inlines-hidden   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk   -o CMakeFiles/cmTryCompileExec3599811832.dir/testCXXCompiler.cxx.o -c /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3599811832
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec3599811832.dir/link.txt --verbose=1
+/usr/bin/c++    -fvisibility-inlines-hidden   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3599811832.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3599811832  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2571488408/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2571488408.dir/build.make CMakeFiles/cmTryCompileExec2571488408.dir/build
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_progress_report /Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2571488408.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -fvisibility-inlines-hidden   -arch i386 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk   -o CMakeFiles/cmTryCompileExec2571488408.dir/CMakeCXXCompilerABI.cpp.o -c "/Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTryCompileExec2571488408
+"/Applications/CMake 2.8-10.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2571488408.dir/link.txt --verbose=1
+/usr/bin/c++    -fvisibility-inlines-hidden   -arch i386 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2571488408.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2571488408   
+Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+Target: x86_64-apple-darwin12.0.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch i386 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//L6RDq6.out -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2571488408.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTryCompileExec2571488408 -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.eprintf.a /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//owu3t2.out -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2571488408.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTryCompileExec2571488408 -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+ "/usr/bin/lipo" -create -output cmTryCompileExec2571488408 /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//L6RDq6.out /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/T//owu3t2.out
+
+

@@ -1,0 +1,3 @@
+/Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/code/CMakeFiles/assimp.dir
+/Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir
+/Users/eero/cinderworkshop/Cinder-Assimp/assimp--3.0.1270-source-only/build/CMakeFiles/uninstall.dir

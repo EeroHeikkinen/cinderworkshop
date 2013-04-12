@@ -1,0 +1,10 @@
+env = Environment()
+
+env['APP_TARGET'] = 'AssimpApp'
+env['APP_SOURCES'] = ['AssimpApp.cpp']
+env['ASSETS'] = ['astroboy_walk.dae', 'seymour.jpg']
+
+# Cinder-Assimp
+env = SConscript('../../../scons/SConscript', exports = 'env')
+
+SConscript('../../../../../scons/SConscript', exports = 'env')
