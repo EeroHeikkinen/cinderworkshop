@@ -1,0 +1,213 @@
+TEpicMonster
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.pth EpicMonster_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.o /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+c0000000051666EFE00000000000000EE
+t1365667582
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004F7D433B0000000000006500
+t1333609275
+s25856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F7D433C0000000000025E48
+t1333609276
+s155208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c000000004F7D433C0000000000005FA8
+t1333609276
+s24488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000004F7D433C00000000000001E5
+t1333609276
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004F7D433C0000000000014894
+t1333609276
+s84116
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000500B62FD00000000000069F0
+t1342923517
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000500B62FD0000000000006730
+t1342923517
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000500B63000000000000081CB0
+t1342923520
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000500B6309000000000002DAF0
+t1342923529
+s187120
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000500B630C00000000004A2D90
+t1342923532
+s4861328
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000500B64110000000000322E20
+t1342923793
+s3288608
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp
+c000000005167C9FA00000000000010AE
+t1365756410
+s4270
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app
+t2
+s0
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Info.plist
+t2
+s0
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster
+t2
+s0
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonster.LinkFileList
+c000000005167CA630000000000000084
+t1365756515
+s132
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.o
+t2
+s0
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/CinderApp.icns
+c000000005167C891000000000001BEB5
+t1365756049
+s114357
+
+N/Users/eero/cinderworkshop/EpicMonster/xcode/EpicMonster_Prefix.pch
+c000000005167C8910000000000000093
+t1365756049
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c000000005167C8910000000000000351
+t1365756049
+s849
+
+CBuild AST from /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbfbb61e30118b741^276665e30118b741^---0#1#0#--18"Check dependencies36"BB8EA208-48AB-4689-9A8D-2A136B23CDA4-
+
+CCompileC ./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.o /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387449315.563206
+e387449317.560243
+r1
+xCompileC
+x./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.o
+x/Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp:26:
+o../../../cinder/include/cinder/MayaCamUI.h:84:10: warning: unused variable 'mV' [-Wunused-variable]
+o                        Vec3f mV = mW.cross( mU ).normalized();
+o                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cppbf4490e30118b741^1a6b8fe50118b741^-314"In file included from /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp:26:../../../cinder/include/cinder/MayaCamUI.h:84:10: warning: unused variable 'mV' [-Wunused-variable]                        Vec3f mV = mW.cross( mU ).normalized();                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@20"Unused variable 'mV'-387449317#18446744073709551615#0#1(2@96"In file included from /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp:26:-387449317#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/eero/cinderworkshop/EpicMonster/src/EpicMonsterApp.cpp0000000000000000^25#9#25#9#849#0#21"Clang LLVM 1.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@61"file://localhost/Users/eero/cinder/include/cinder/MayaCamUI.h0000000000000000^83#9#83#9#3461#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp0000000000000000^2776"CompileC ./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.o ../src/EpicMonsterApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eero/cinderworkshop/EpicMonster/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-generated-files.hmap -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-own-target-headers.hmap -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-all-target-headers.hmap -iquote /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-project-headers.hmap -iquote../../../cinder/include -iquote../include -I/Users/eero/cinderworkshop/EpicMonster/xcode/build/Debug/include -I../../../cinder/boost -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/DerivedSources/i386 -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/DerivedSources -F/Users/eero/cinderworkshop/EpicMonster/xcode/build/Debug -include /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch -MMD -MT dependencies -MF /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.d --serialize-diagnostics /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.dia -c /Users/eero/cinderworkshop/EpicMonster/xcode/../src/EpicMonsterApp.cpp -o /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonsterApp.o36"536CF465-BF3B-46B8-B091-8C7A89861945-
+
+CCpResource CinderApp.icns ./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns
+s387449315.410163
+e387449315.413638
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns0b0c69e30118b741^d6e469e30118b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns000000000080d041^408"CpResource CinderApp.icns ./build/Debug/EpicMonster.app/Contents/Resources/CinderApp.icns    cd /Users/eero/cinderworkshop/EpicMonster/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eero/cinderworkshop/EpicMonster/xcode/CinderApp.icns /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Resources36"5D624675-146C-42A4-B42F-D761D6E120F8-
+
+CLd /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster normal i386
+s387449317.566846
+e387449318.019146
+r0
+xLd
+x/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster
+xnormal
+xi386
+oUndefined symbols for architecture i386:
+o  "mndl::assimp::AssimpLoader::setAnimation(unsigned long)", referenced from:
+o      EpicMonsterApp::setup() in EpicMonsterApp.o
+o  "mndl::assimp::AssimpLoader::enableSkinning(bool)", referenced from:
+o      EpicMonsterApp::update() in EpicMonsterApp.o
+o  "mndl::assimp::AssimpLoader::draw()", referenced from:
+o      EpicMonsterApp::draw() in EpicMonsterApp.o
+o  "mndl::assimp::AssimpLoader::update()", referenced from:
+o      EpicMonsterApp::update() in EpicMonsterApp.o
+o  "mndl::assimp::AssimpLoader::setTime(double)", referenced from:
+o      EpicMonsterApp::update() in EpicMonsterApp.o
+o  "mndl::assimp::AssimpLoader::AssimpLoader(boost::filesystem3::path)", referenced from:
+o      EpicMonsterApp::setup() in EpicMonsterApp.o
+o  "mndl::assimp::AssimpLoader::getAnimationDuration(unsigned long) const", referenced from:
+o      EpicMonsterApp::update() in EpicMonsterApp.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster662d91e50118b741^5ce604e60118b741^-1032"Undefined symbols for architecture i386:  "mndl::assimp::AssimpLoader::setAnimation(unsigned long)", referenced from:      EpicMonsterApp::setup() in EpicMonsterApp.o  "mndl::assimp::AssimpLoader::enableSkinning(bool)", referenced from:      EpicMonsterApp::update() in EpicMonsterApp.o  "mndl::assimp::AssimpLoader::draw()", referenced from:      EpicMonsterApp::draw() in EpicMonsterApp.o  "mndl::assimp::AssimpLoader::update()", referenced from:      EpicMonsterApp::update() in EpicMonsterApp.o  "mndl::assimp::AssimpLoader::setTime(double)", referenced from:      EpicMonsterApp::update() in EpicMonsterApp.o  "mndl::assimp::AssimpLoader::AssimpLoader(boost::filesystem3::path)", referenced from:      EpicMonsterApp::setup() in EpicMonsterApp.o  "mndl::assimp::AssimpLoader::getAnimationDuration(unsigned long) const", referenced from:      EpicMonsterApp::update() in EpicMonsterApp.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)16(21%IDEActivityLogMessage2@75""mndl::assimp::AssimpLoader::setAnimation(unsigned long)", referenced from:-387449317#41#78#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@43"EpicMonsterApp::setup() in EpicMonsterApp.o-387449317#119#50#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@68""mndl::assimp::AssimpLoader::enableSkinning(bool)", referenced from:-387449317#169#71#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"EpicMonsterApp::update() in EpicMonsterApp.o-387449317#240#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@54""mndl::assimp::AssimpLoader::draw()", referenced from:-387449317#291#57#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@42"EpicMonsterApp::draw() in EpicMonsterApp.o-387449317#348#49#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@56""mndl::assimp::AssimpLoader::update()", referenced from:-387449317#397#59#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"EpicMonsterApp::update() in EpicMonsterApp.o-387449317#456#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@63""mndl::assimp::AssimpLoader::setTime(double)", referenced from:-387449317#507#66#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"EpicMonsterApp::update() in EpicMonsterApp.o-387449317#573#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@86""mndl::assimp::AssimpLoader::AssimpLoader(boost::filesystem3::path)", referenced from:-387449318#624#89#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@43"EpicMonsterApp::setup() in EpicMonsterApp.o-387449318#713#50#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@89""mndl::assimp::AssimpLoader::getAnimationDuration(unsigned long) const", referenced from:-387449318#763#92#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@44"EpicMonsterApp::update() in EpicMonsterApp.o-387449318#855#51#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"Symbol(s) not found for architecture i386-387449318#906#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-387449318#952#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--1024"Ld ./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster normal i386    cd /Users/eero/cinderworkshop/EpicMonster/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/eero/cinderworkshop/EpicMonster/xcode/build/Debug -F/Users/eero/cinderworkshop/EpicMonster/xcode/build/Debug -filelist /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/Objects-normal/i386/EpicMonster.LinkFileList -mmacosx-version-min=10.5 ../../../cinder/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/MacOS/EpicMonster36"BAC0FA0C-B225-45D6-A4E1-9FA1B7D3772A-
+
+CProcessInfoPlistFile /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Info.plist Info.plist
+s387449315.399504
+e387449315.402163
+r1
+xProcessInfoPlistFile
+x/Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistac5666e30118b741^6a1767e30118b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/eero/cinderworkshop/EpicMonster/xcode/Info.plist0000000000000000^414"ProcessInfoPlistFile ./build/Debug/EpicMonster.app/Contents/Info.plist Info.plist    cd /Users/eero/cinderworkshop/EpicMonster/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app/Contents/Info.plist36"ABF08CF8-049B-451E-B3F7-376CFA033130-
+
+CProcessPCH++ /Users/eero/Library/Developer/Xcode/DerivedData/EpicMonster-cqxpwumkxpnurvbcbuguflzwrhto/Index/PrecompiledHeaders/EpicMonster_Prefix-dtsokxcrfvvxjuavnkblvnilclra_ast/EpicMonster_Prefix.pch.pth EpicMonster_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.pth EpicMonster_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387449315.421129
+e387449315.556464
+r1
+xProcessPCH++
+x/var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.pth
+xEpicMonster_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile EpicMonster_Prefix.pche7e26be30118b741^9f748ee30118b741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/eero/cinderworkshop/EpicMonster/xcode/EpicMonster_Prefix.pch0000000000000000^2796"ProcessPCH++ /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.pth EpicMonster_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eero/cinderworkshop/EpicMonster/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-generated-files.hmap -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-own-target-headers.hmap -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-all-target-headers.hmap -iquote /Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/EpicMonster-project-headers.hmap -iquote../../../cinder/include -iquote../include -I/Users/eero/cinderworkshop/EpicMonster/xcode/build/Debug/include -I../../../cinder/boost -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/DerivedSources/i386 -I/Users/eero/cinderworkshop/EpicMonster/xcode/./build/EpicMonster.build/Debug/EpicMonster.build/DerivedSources -F/Users/eero/cinderworkshop/EpicMonster/xcode/build/Debug --serialize-diagnostics /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.dia -c /Users/eero/cinderworkshop/EpicMonster/xcode/EpicMonster_Prefix.pch -o /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/71/xfz0ft0x4vv311km_zt1j8t40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/EpicMonster_Prefix-dvpqfmwqoyyfkidqsqsjejplxbfv/EpicMonster_Prefix.pch.d36"01B5DA0F-8068-4A40-9B2B-16A694007F13-
+
+CTouch /Users/eero/cinderworkshop/EpicMonster/xcode/./build/Debug/EpicMonster.app
+r0
+

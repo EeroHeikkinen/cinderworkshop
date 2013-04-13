@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C72E088E171968E9008C3C6E /* osc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C72E088D171968E9008C3C6E /* osc.a */; };
+		C72E089317196A5B008C3C6E /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72E088F17196A5B008C3C6E /* OscBundle.cpp */; };
+		C72E089417196A5B008C3C6E /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72E089017196A5B008C3C6E /* OscListener.cpp */; };
+		C72E089517196A5B008C3C6E /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72E089117196A5B008C3C6E /* OscMessage.cpp */; };
+		C72E089617196A5B008C3C6E /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72E089217196A5B008C3C6E /* OscSender.cpp */; };
+		C72E08A41719981B008C3C6E /* Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C72E08A31719981B008C3C6E /* Normal.png */; };
+		C72E08AB1719B355008C3C6E /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72E08AA1719B355008C3C6E /* Syphon.framework */; };
+		C72E08B01719B437008C3C6E /* syphonClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = C72E08AE1719B437008C3C6E /* syphonClient.mm */; };
+		C72E08B11719B437008C3C6E /* syphonServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C72E08AF1719B437008C3C6E /* syphonServer.mm */; };
+		C72E08B31719B46D008C3C6E /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C72E08B21719B46D008C3C6E /* SyphonNameboundClient.m */; };
+		C72E08B51719B4E7008C3C6E /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C72E08AA1719B355008C3C6E /* Syphon.framework */; };
+		C786E6C917188E4B0055E5EC /* particles.frag in Sources */ = {isa = PBXBuildFile; fileRef = C786E6C517188E4B0055E5EC /* particles.frag */; };
+		C786E6CA17188E4B0055E5EC /* passThrough.vert in Sources */ = {isa = PBXBuildFile; fileRef = C786E6C617188E4B0055E5EC /* passThrough.vert */; };
+		C786E6CB17188E4B0055E5EC /* vertexDisplacementFrag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C786E6C717188E4B0055E5EC /* vertexDisplacementFrag.glsl */; };
+		C786E6CC17188E4B0055E5EC /* vertexDisplacementVert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C786E6C817188E4B0055E5EC /* vertexDisplacementVert.glsl */; };
+		C786E6CD17188EBD0055E5EC /* particles.frag in Resources */ = {isa = PBXBuildFile; fileRef = C786E6C517188E4B0055E5EC /* particles.frag */; };
+		C786E6CE17188EBD0055E5EC /* passThrough.vert in Resources */ = {isa = PBXBuildFile; fileRef = C786E6C617188E4B0055E5EC /* passThrough.vert */; };
+		C7CFF0EF171809D300EEB829 /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CFF0EE171809D300EEB829 /* libassimp.a */; };
+		C7CFF1141718633B00EEB829 /* EpicMonsterApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFF1131718633B00EEB829 /* EpicMonsterApp.cpp */; };
+		C7CFF11A1718641E00EEB829 /* AssimpLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFF1181718641E00EEB829 /* AssimpLoader.cpp */; };
+		C7CFF11B1718641E00EEB829 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFF1191718641E00EEB829 /* Node.cpp */; };
+		C7CFF11F171864B700EEB829 /* PingPongFbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7CFF11D171864B700EEB829 /* PingPongFbo.cpp */; };
+		C7D184571718B398005384E5 /* bakeFrag.glsl in Sources */ = {isa = PBXBuildFile; fileRef = C7D184561718B398005384E5 /* bakeFrag.glsl */; };
+		C7D184591718B4C5005384E5 /* bakeVert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C7D184581718B4C5005384E5 /* bakeVert.glsl */; };
+		C7D1845A1718EC59005384E5 /* bakeFrag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C7D184561718B398005384E5 /* bakeFrag.glsl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C72E08B41719B4DB008C3C6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C72E08B51719B4E7008C3C6E /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0097E3E40F3E9819005A4392 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00CCAF14116A9FEE008396D5 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CinderApp.icns; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* EpicMonster_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpicMonster_Prefix.pch; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* EpicMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72E0888171968B1008C3C6E /* OscArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscArg.h; path = ../headers/OscArg.h; sourceTree = "<group>"; };
+		C72E0889171968B1008C3C6E /* OscBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscBundle.h; path = ../headers/OscBundle.h; sourceTree = "<group>"; };
+		C72E088A171968B1008C3C6E /* OscListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscListener.h; path = ../headers/OscListener.h; sourceTree = "<group>"; };
+		C72E088B171968B1008C3C6E /* OscMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscMessage.h; path = ../headers/OscMessage.h; sourceTree = "<group>"; };
+		C72E088C171968B1008C3C6E /* OscSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscSender.h; path = ../headers/OscSender.h; sourceTree = "<group>"; };
+		C72E088D171968E9008C3C6E /* osc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = osc.a; sourceTree = "<group>"; };
+		C72E088F17196A5B008C3C6E /* OscBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscBundle.cpp; sourceTree = "<group>"; };
+		C72E089017196A5B008C3C6E /* OscListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscListener.cpp; sourceTree = "<group>"; };
+		C72E089117196A5B008C3C6E /* OscMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscMessage.cpp; sourceTree = "<group>"; };
+		C72E089217196A5B008C3C6E /* OscSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscSender.cpp; sourceTree = "<group>"; };
+		C72E08A31719981B008C3C6E /* Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Normal.png; sourceTree = "<group>"; };
+		C72E08AA1719B355008C3C6E /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+		C72E08AC1719B406008C3C6E /* syphonClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syphonClient.h; sourceTree = "<group>"; };
+		C72E08AD1719B406008C3C6E /* syphonServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syphonServer.h; sourceTree = "<group>"; };
+		C72E08AE1719B437008C3C6E /* syphonClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = syphonClient.mm; sourceTree = "<group>"; };
+		C72E08AF1719B437008C3C6E /* syphonServer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = syphonServer.mm; sourceTree = "<group>"; };
+		C72E08B21719B46D008C3C6E /* SyphonNameboundClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyphonNameboundClient.m; sourceTree = "<group>"; };
+		C786E6C517188E4B0055E5EC /* particles.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = particles.frag; path = ../resources/particles.frag; sourceTree = "<group>"; };
+		C786E6C617188E4B0055E5EC /* passThrough.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = passThrough.vert; path = ../resources/passThrough.vert; sourceTree = "<group>"; };
+		C786E6C717188E4B0055E5EC /* vertexDisplacementFrag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vertexDisplacementFrag.glsl; path = ../resources/vertexDisplacementFrag.glsl; sourceTree = "<group>"; };
+		C786E6C817188E4B0055E5EC /* vertexDisplacementVert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vertexDisplacementVert.glsl; path = ../resources/vertexDisplacementVert.glsl; sourceTree = "<group>"; };
+		C7CFF0EE171809D300EEB829 /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libassimp.a; sourceTree = "<group>"; };
+		C7CFF1131718633B00EEB829 /* EpicMonsterApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EpicMonsterApp.cpp; sourceTree = "<group>"; };
+		C7CFF1151718637A00EEB829 /* AssimpLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssimpLoader.h; sourceTree = "<group>"; };
+		C7CFF1161718637A00EEB829 /* AssimpMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssimpMesh.h; sourceTree = "<group>"; };
+		C7CFF1171718637A00EEB829 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		C7CFF1181718641E00EEB829 /* AssimpLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssimpLoader.cpp; sourceTree = "<group>"; };
+		C7CFF1191718641E00EEB829 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		C7CFF11D171864B700EEB829 /* PingPongFbo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PingPongFbo.cpp; sourceTree = "<group>"; };
+		C7CFF128171865BC00EEB829 /* PingPongFbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PingPongFbo.h; path = ../include/PingPongFbo.h; sourceTree = "<group>"; };
+		C7CFF129171865BC00EEB829 /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		C7D184561718B398005384E5 /* bakeFrag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bakeFrag.glsl; path = ../resources/bakeFrag.glsl; sourceTree = "<group>"; };
+		C7D184581718B4C5005384E5 /* bakeVert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bakeVert.glsl; path = ../resources/bakeVert.glsl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				C72E08AB1719B355008C3C6E /* Syphon.framework in Frameworks */,
+				C7CFF0EF171809D300EEB829 /* libassimp.a in Frameworks */,
+				C72E088E171968E9008C3C6E /* osc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C72E08B21719B46D008C3C6E /* SyphonNameboundClient.m */,
+				C72E08AE1719B437008C3C6E /* syphonClient.mm */,
+				C72E08AF1719B437008C3C6E /* syphonServer.mm */,
+				C72E088F17196A5B008C3C6E /* OscBundle.cpp */,
+				C72E089017196A5B008C3C6E /* OscListener.cpp */,
+				C72E089117196A5B008C3C6E /* OscMessage.cpp */,
+				C72E089217196A5B008C3C6E /* OscSender.cpp */,
+				C7CFF11D171864B700EEB829 /* PingPongFbo.cpp */,
+				C7CFF1181718641E00EEB829 /* AssimpLoader.cpp */,
+				C7CFF1191718641E00EEB829 /* Node.cpp */,
+				C7CFF1131718633B00EEB829 /* EpicMonsterApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72E08AA1719B355008C3C6E /* Syphon.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				0097E3E40F3E9819005A4392 /* QuickTime.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				53E3CDFB0E86099300238D2B /* Carbon.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* EpicMonster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* EpicMonster */ = {
+			isa = PBXGroup;
+			children = (
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = EpicMonster;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C72E08AC1719B406008C3C6E /* syphonClient.h */,
+				C72E08AD1719B406008C3C6E /* syphonServer.h */,
+				C72E0888171968B1008C3C6E /* OscArg.h */,
+				C72E0889171968B1008C3C6E /* OscBundle.h */,
+				C72E088A171968B1008C3C6E /* OscListener.h */,
+				C72E088B171968B1008C3C6E /* OscMessage.h */,
+				C72E088C171968B1008C3C6E /* OscSender.h */,
+				C7CFF128171865BC00EEB829 /* PingPongFbo.h */,
+				C7CFF129171865BC00EEB829 /* Resources.h */,
+				C7CFF1151718637A00EEB829 /* AssimpLoader.h */,
+				C7CFF1161718637A00EEB829 /* AssimpMesh.h */,
+				C7CFF1171718637A00EEB829 /* Node.h */,
+				32CA4F630368D1EE00C91783 /* EpicMonster_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C72E08A31719981B008C3C6E /* Normal.png */,
+				C786E6C517188E4B0055E5EC /* particles.frag */,
+				C7D184561718B398005384E5 /* bakeFrag.glsl */,
+				C786E6C617188E4B0055E5EC /* passThrough.vert */,
+				C7D184581718B4C5005384E5 /* bakeVert.glsl */,
+				C786E6C717188E4B0055E5EC /* vertexDisplacementFrag.glsl */,
+				C786E6C817188E4B0055E5EC /* vertexDisplacementVert.glsl */,
+				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72E088D171968E9008C3C6E /* osc.a */,
+				C7CFF0EE171809D300EEB829 /* libassimp.a */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* EpicMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "EpicMonster" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				C72E08B41719B4DB008C3C6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpicMonster;
+			productInstallPath = "$(HOME)/Applications";
+			productName = EpicMonster;
+			productReference = 8D1107320486CEB800E47090 /* EpicMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EpicMonster" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* EpicMonster */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* EpicMonster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D1845A1718EC59005384E5 /* bakeFrag.glsl in Resources */,
+				C786E6CD17188EBD0055E5EC /* particles.frag in Resources */,
+				C786E6CE17188EBD0055E5EC /* passThrough.vert in Resources */,
+				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
+				C786E6CB17188E4B0055E5EC /* vertexDisplacementFrag.glsl in Resources */,
+				C786E6CC17188E4B0055E5EC /* vertexDisplacementVert.glsl in Resources */,
+				C7D184591718B4C5005384E5 /* bakeVert.glsl in Resources */,
+				C72E08A41719981B008C3C6E /* Normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CFF1141718633B00EEB829 /* EpicMonsterApp.cpp in Sources */,
+				C7CFF11A1718641E00EEB829 /* AssimpLoader.cpp in Sources */,
+				C7CFF11B1718641E00EEB829 /* Node.cpp in Sources */,
+				C7CFF11F171864B700EEB829 /* PingPongFbo.cpp in Sources */,
+				C786E6C917188E4B0055E5EC /* particles.frag in Sources */,
+				C786E6CA17188E4B0055E5EC /* passThrough.vert in Sources */,
+				C7D184571718B398005384E5 /* bakeFrag.glsl in Sources */,
+				C72E089317196A5B008C3C6E /* OscBundle.cpp in Sources */,
+				C72E089417196A5B008C3C6E /* OscListener.cpp in Sources */,
+				C72E089517196A5B008C3C6E /* OscMessage.cpp in Sources */,
+				C72E089617196A5B008C3C6E /* OscSender.cpp in Sources */,
+				C72E08B01719B437008C3C6E /* syphonClient.mm in Sources */,
+				C72E08B11719B437008C3C6E /* syphonServer.mm in Sources */,
+				C72E08B31719B46D008C3C6E /* SyphonNameboundClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CINDER_PATH = ../../cinder;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EpicMonster_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"\"../lib\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../lib/macosx\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = EpicMonster;
+				SDKROOT = macosx10.6;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CINDER_PATH = ../../cinder;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EpicMonster_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"\"../lib\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../lib/macosx\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = EpicMonster;
+				SDKROOT = macosx10.6;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CINDER_PATH = ../../../cinder;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../include/assimp";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				CINDER_PATH = ../../../cinder;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../include/assimp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "EpicMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EpicMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

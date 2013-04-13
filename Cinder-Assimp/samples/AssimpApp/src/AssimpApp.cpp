@@ -70,7 +70,7 @@ void AssimpApp::prepareSettings( Settings *settings )
 
 void AssimpApp::setup()
 {
-	mAssimpLoader = assimp::AssimpLoader( getAssetPath( "astroboy_walk.dae" ) );
+	mAssimpLoader = assimp::AssimpLoader( getAssetPath( "MonsuRetopo6.dae" ) );
 	mAssimpLoader.setAnimation( 0 );
 
 
@@ -97,18 +97,19 @@ void AssimpApp::setup()
 
 void AssimpApp::update()
 {
-	mAssimpLoader.enableTextures( mEnableTextures );
-	mAssimpLoader.enableSkinning( mEnableSkinning );
-	mAssimpLoader.enableAnimation( mEnableAnimation );
+	//mAssimpLoader.enableTextures( mEnableTextures );
+	//mAssimpLoader.enableSkinning( mEnableSkinning );
+	//mAssimpLoader.enableAnimation( mEnableAnimation );
 
-	double time = fmod( getElapsedSeconds(), mAssimpLoader.getAnimationDuration( 0 ) );
-	mAssimpLoader.setTime( time );
-	mAssimpLoader.update();
+	//double time = fmod( getElapsedSeconds(), mAssimpLoader.getAnimationDuration( 0 ) );
+	///mAssimpLoader.setTime( time );
+	//mAssimpLoader.update();
 
 	mFps = getAverageFps();
     
     std::vector< std::string > nodeNames = mAssimpLoader.getNodeNames();
     
+    /*
     vector< std::string >::const_iterator nameIt = nodeNames.begin();
     for ( ; nameIt != nodeNames.end(); ++nameIt )
     {
@@ -120,6 +121,8 @@ void AssimpApp::update()
         
         vector< uint32_t >::const_iterator indiceIt = indices.begin();
     }
+    
+    */
     /*
     
     for( int i=0; i<100; i++ )
@@ -141,7 +144,9 @@ void AssimpApp::draw()
 	gl::clear( Color::black() );
 
 	gl::setMatrices( mMayaCam.getCamera() );
-
+    gl::setViewport( getWindowBounds() );
+    
+    
 	gl::enableDepthWrite();
 	gl::enableDepthRead();
 

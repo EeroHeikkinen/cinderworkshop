@@ -72,7 +72,14 @@ void SkinningApp::prepareSettings( Settings *settings )
 
 void SkinningApp::setup()
 {
-	mAssimpLoader = assimp::AssimpLoader( getAssetPath( "seymour.dae" ) );
+    try {
+        mAssimpLoader = assimp::AssimpLoader( getAssetPath( "MonsuRetopo6.dae" ) );
+        
+    }
+    catch(const std::exception& ex ) {
+        std::cout << "Model loading error: " << endl;
+        std::cout << ex.what();
+    }
 	mAssimpLoader.enableSkinning();
 	mNodeNames = mAssimpLoader.getNodeNames();
 	if ( mNodeNames.empty () )
@@ -111,7 +118,12 @@ void SkinningApp::setup()
 
 void SkinningApp::setupParams()
 {
-	mParams.clear();
+    mParams.removeParam("Wireframe");
+    mParams.removeParam("Nodes");
+    mParams.removeParam("Rotation");
+    mParams.removeParam("Fps");
+    
+//	mParams.clear();
 
 	mParams.addParam( "Wireframe", &mEnableWireframe );
 	mParams.addSeparator();

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "cinder::app::App::loadResource(std::string const&amp;):App.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "resourcePath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "cinder::app::App::getResourcePath(boost::filesystem3::path const&amp;):App.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[NSBundle mainBundle] pathForResource:[NSString stringWithUTF8String:fileName.c_str()] ofType:nil inDirectory:pathNS];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "gpups::gpuPSApp::setup():gpuPSApp.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "ci::app::loadResource( PASSTHROUGH_VERT );">
+            </PersistentString>
+            <PersistentString
+               value = "ex.what()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "boost::filesystem3::path::c_str() const:path.hpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_pathname.c_str()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
